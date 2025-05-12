@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 一组游戏对象旋转，可以设置步差，跳过多少个对象开始旋转
+ */
 class angleWithStepScene extends Phaser.Scene {
    constructor() {
       super('angleWithStepScene');

@@ -1,3 +1,6 @@
+/**
+ * @description 加载播放video
+ */
 class Video extends Phaser.Scene
 {
     constructor ()

@@ -1,7 +1,6 @@
-
-
-import Phaser from 'phaser';
-
+/**
+ * @description 预加载远程资源
+ */
 class SceneFilesPayload extends Phaser.Scene {
    constructor() {
       super('sceneFilesPayload' , {

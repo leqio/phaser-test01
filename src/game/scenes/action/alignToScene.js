@@ -1,5 +1,6 @@
-import Phaser from "phaser";
-
+/**
+ * @description 元素排列：第一项不会移动，其他项依次跟在第一项后，
+ */
 class alignToScene extends Phaser.Scene {
     constructor() {
         super('alignToScene');

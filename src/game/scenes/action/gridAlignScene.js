@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 一组元素网格对齐
+ */
 class gridAlignScene extends Phaser.Scene {
    constructor() {
       super('gridAlignScene')

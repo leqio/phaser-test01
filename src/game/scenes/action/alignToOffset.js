@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 一组元素排列偏移 
+ */
 class AlignToOffset extends Phaser.Scene {
    constructor() {
       super('alignToOffset'),

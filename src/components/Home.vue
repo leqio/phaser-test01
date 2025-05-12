@@ -1,11 +1,9 @@
 <template>
-  <div>
     <!-- <div class="back">
       <button @click="backHomeScene()">返回</button>
     </div> -->
     <!-- canvas容器 -->
-    <div id="container"></div>
-  </div>
+    <div id="game-container"></div>
 </template>
 
 <script setup>
@@ -28,7 +26,7 @@
 
   onMounted(() => {
     // 初始化游戏，将canvas加载到容器中
-    game.value = startGame('#container');
+    game.value = startGame('game-container');
   })
 
   onUnmounted(() => {

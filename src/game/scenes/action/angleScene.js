@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 一组游戏对象旋转
+ */
 class angleScene extends Phaser.Scene {
    constructor() {
       super('angleScene');

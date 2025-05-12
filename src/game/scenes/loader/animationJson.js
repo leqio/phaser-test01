@@ -1,5 +1,7 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 加载animation动画json 
+ * this.load.animation()
+ */
 class AnimationJson extends Phaser.Scene {
    constructor() {
       super('animationJson')

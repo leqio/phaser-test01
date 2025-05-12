@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description: 从一个对象数组或组（Group）中找到第一个符合特定条件的对象。
+ */
 class getFirstScene extends Phaser.Scene {
    constructor() {
       super('getFirstScene');

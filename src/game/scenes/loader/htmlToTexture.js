@@ -1,9 +1,8 @@
-// 加载html纹理,直接加载 HTML 文件并将其作为纹理使用
-// this.load.htmlTexture(key, url, width, height);
-// this.load.htmlTexture(key, url, width, height, xhrSettings);
-
-import Phaser from 'phaser';
-
+/**
+ * * @description 加载html纹理,直接加载 HTML 文件并将其作为纹理使用
+ *  this.load.htmlTexture(key, url, width, height);
+ *  this.load.htmlTexture(key, url, width, height, xhrSettings);
+ */
 class HtmlToTexture extends Phaser.Scene {
    constructor() {
       super('htmlToTexture');

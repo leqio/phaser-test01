@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description 设置元素相对第一个元素对齐方式
+ */
 class AlignToBaseScene extends Phaser.Scene {
    constructor() {
       super('alignToBaseScene')

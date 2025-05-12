@@ -1,8 +1,10 @@
 // 加载Unity图集: [textureURL]：资源URl , [atlasURL]: 从中加载纹理图集 json 数据文件的绝对或相对 URL
 // this.load.unityAtlas(key, textureURL, atlasURL);
 
-import Phaser from 'phaser';
-
+/**
+ * @description 加载Unity图集
+ * this.load.unityAtlas(key, textureURL, atlasURL);
+ */
 class UnitySpriteSheet extends Phaser.Scene {
    constructor() {
       super('unitySpriteSheet')

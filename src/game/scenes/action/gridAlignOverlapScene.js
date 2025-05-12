@@ -1,5 +1,6 @@
-import Phaser from 'phaser';
-
+/**
+ * @description: 将一组游戏对象（或任何具有公共 x 和 y 属性的对象）按照给定的网格配置进行对齐, 元素部分重叠（比如卡牌）
+ */
 class gridAlignOverlapScene extends Phaser.Scene {
    constructor() {
       super('gridAlignOverlapScene')
@@ -32,10 +33,10 @@ class gridAlignOverlapScene extends Phaser.Scene {
 
     // 将精灵实例按网格分布
     Phaser.Actions.GridAlign(cards, {
-        width: 8,
-        height: 2,
-        cellWidth: 80, //数值小一点就是元素部分叠着
-        cellHeight: 220,
+        width: 8, // 8列
+        height: 2, // 2行
+        cellWidth: 80, // 每个单元格的宽度, 数值小一点就是元素部分叠着
+        cellHeight: 220, // 每个单元格的高度
         x: 50,
         y: 80
     })

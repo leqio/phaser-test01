@@ -4,8 +4,9 @@
 // 用法三：指定加载资源包的部分资源 
 // 用法四：加载资源包中嵌套的资源包
 
-import Phaser from 'phaser';
-
+/**
+ * * @description 远程资源包加载
+ */
 class LoadFileFromJson2 extends Phaser.Scene {
    constructor() {
       super('loadFileFromJson2')

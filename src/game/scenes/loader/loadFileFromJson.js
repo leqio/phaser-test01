@@ -1,7 +1,3 @@
-// this.load.pack()加载资源包
-
-import Phaser from 'phaser';
-
 const FilePackObject = {
     test1: {
         files: [
@@ -40,6 +36,10 @@ const FilePackObject = {
     }
 };
 
+/**
+ * @description 加载一组资源包，可以将所有资源打包在一个 JSON 文件（或 JavaScript 对象）中，并通过该文件来批量加载资源
+ * this.load.pack()加载资源包
+ */
 class LoadFileFromJson extends Phaser.Scene {
    constructor() {
       super('loadFileFromJson')
